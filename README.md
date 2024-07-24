@@ -1,4 +1,4 @@
-# @leester/toolset
+# @xperia11/utils
 
 This is my commonly used tool chain and configuration, which is stable and continuously maintained and updated.
 
@@ -13,11 +13,11 @@ This is my commonly used tool chain and configuration, which is stable and conti
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@leester/toolset?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/@leester/toolset
-[npm-downloads-src]: https://img.shields.io/npm/dm/@leester/toolset?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/@leester/toolset
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@leester/toolset?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@leester/toolset
-[license-src]: https://img.shields.io/github/license/skyline523/toolset.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/skyline523/toolset/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/@xperia11/utils?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@xperia11/utils
+[npm-downloads-src]: https://img.shields.io/npm/dm/@xperia11/utils?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@xperia11/utils
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@xperia11/utils?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@xperia11/utils
+[license-src]: https://img.shields.io/github/license/skyline523/utils.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/skyline523/utils/blob/main/LICENSE
