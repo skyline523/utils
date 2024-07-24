@@ -18,7 +18,7 @@ export function formatNumberToZhCn(number: number) {
   const theThousandsDivisor = Number.parseInt((number / 10000).toFixed(1))
 
   if (theThousandsDivisor < 1)
-    return number
+    return number.toString()
   else if (theThousandsDivisor < 10000)
     return `${theThousandsDivisor}万`
   else return `${theThousandsDivisor}亿`
