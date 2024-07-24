@@ -6,7 +6,6 @@
   "description": "This is my commonly used tool chain",
   "author": "Leet <programingwithli@gmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
   "homepage": "https://github.com/skyline523/utils#readme",
   "repository": {
     "type": "git",
