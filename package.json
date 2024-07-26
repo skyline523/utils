@@ -14,13 +14,15 @@
   "bugs": "https://github.com/skyline523/utils/issues",
   "keywords": [
     "utils",
-    "config"
+    "config",
+    "unocss"
   ],
   "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.mjs",

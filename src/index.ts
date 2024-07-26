@@ -1,2 +1,2 @@
 export * from '../package/utils'
-// export * from '../package/unocss'
+export * from '../package/unocss'
