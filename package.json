@@ -1,7 +1,7 @@
 {
   "name": "@xperia11/utils",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@9.1.1",
   "description": "This is my commonly used tool chain",
   "author": "Leet <programingwithli@gmail.com>",
@@ -42,7 +42,7 @@
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
-    "release": "bumpp && npm publish --registry https://registry.npmjs.org",
+    "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
