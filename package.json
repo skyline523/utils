@@ -40,7 +40,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "tsup src/index.ts",
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
@@ -67,6 +67,7 @@
     "pnpm": "^9.1.1",
     "rimraf": "^5.0.7",
     "standard-version": "^9.5.0",
+    "tsup": "^8.2.3",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
     "unocss": "^0.61.0",
