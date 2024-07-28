@@ -1,3 +1,5 @@
+import { isValidDate } from './data'
+
 /**
  * Format the number to thousands separator number.
  *
@@ -11,7 +13,7 @@ export function formatNumber(number: number) {
 
 /**
  * Format the numner to zh-cn unit number.
- * eg: 10万 20.1万 1亿
+ * eg: 10万 20万 1亿
  * @param number
  */
 export function formatNumberToZhCn(number: number) {
@@ -25,7 +27,7 @@ export function formatNumberToZhCn(number: number) {
 }
 
 /**
- * Format the time as `yyyy-MM-dd HH:mm:ss`
+ * Format the time as `yyyy-MM-dd HH:mm:ss`, invalid date return 'Invalid Date'
  *
  * @param time - a timestamp or a date object
  *
@@ -33,8 +35,11 @@ export function formatNumberToZhCn(number: number) {
  *
  * @category format
  */
-export function formatTime(time: number | Date, dateOnly?: boolean) {
+export function formatTime(time: number | string | Date, dateOnly?: boolean) {
   const date = new Date(time)
+
+  if (!isValidDate(date))
+    return 'Invalid Date'
 
   const year = date.getFullYear()
   const month = (`0${date.getMonth() + 1}`).slice(-2)
