@@ -1,1 +1,1 @@
-export * from '../package/utils'
+export * from '../package/src'
