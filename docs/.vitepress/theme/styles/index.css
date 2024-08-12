@@ -1,0 +1,13 @@
+@import './overrides.css';
+@import './rainbow.css';
+@import './vars.css';
+
+.VPHero .image-bg {
+  z-index: 1;
+  opacity: .8;
+  transition: opacity 1s ease;
+}
+
+.VPHero .image-container:hover .image-bg {
+  opacity: 0.2;
+}
