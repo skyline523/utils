@@ -8,11 +8,11 @@ hero:
   tagline: This is my commonly used tool chain
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API References
+      link: /fuctions/
 
 features:
   - title: Feature A

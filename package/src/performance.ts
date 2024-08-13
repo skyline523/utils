@@ -40,7 +40,7 @@ export function debounce<T extends (...args: any[]) => void>(
 export function throttle<T extends (...args: any[]) => void>(
   func: T,
   duration = 200,
-) {
+): (...args: Parameters<T>) => void {
   let timeout: ReturnType<typeof setTimeout> | undefined
   let previous = 0
 

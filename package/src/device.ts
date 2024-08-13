@@ -92,7 +92,7 @@ export const isAndroid = /Android/i.test(getUserAgent())
 /**
  * @category device
  */
-interface DeviceResizeWatcherOptions {
+export interface DeviceResizeWatcherOptions {
   // 是否在页面加载就执行回调
   immediate: boolean
 }
